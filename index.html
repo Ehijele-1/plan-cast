@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PlanCast</title>
+        <link rel="stylesheet" href="plan-cast.css">
+    </head>
+    <body>
+        <div class="weather-shell">
+            <header class="brand">
+                <div>
+                    <p class="eyebrow">Outdoors planner</p>
+                    <h1>PlanCast</h1>
+                </div>
+                <div class="brand-mark">🚀</div>
+            </header>
+
+            <form>
+                <input type="text" class="weather-input" placeholder="Search city...">
+                <button type="submit" class="search-weather">Plan my day</button>
+            </form>
+            <p class="errorMessage"></p>
+            <p class="serverMessage"></p>
+            <p class="loading"></p>
+
+            <main class="main-panel">
+                <section class="recommendation-panel">
+                    <div class="recommendation-label">Best match</div>
+                    <p class="matched">Activity</p>
+                    <p class="percentage">0% match</p>
+                    <p class="bad-weather"></p>
+                </section>
+
+                <section class="weather-panel">
+                    <div class="container">
+                        <div class="weather-card">
+                            <div class="weather-top">
+                                <p class="searched-city">City</p>
+                                <div id="emoji">☀️</div>
+                            </div>
+                            <p class="temperature">--°C</p>
+                            <p class="code">Weather condition</p>
+                            <p class="humidity"><span class="mini-pill">Humidity</span> --%</p>
+                            <p class="wind"><span class="mini-pill">Wind</span> -- km/h</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <script src="plan-cast.js"></script>
+    </body>
+</html>
