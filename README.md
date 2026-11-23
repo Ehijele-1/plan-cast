@@ -2,6 +2,10 @@
 
 An outdoors planner that tells you what to do based on the weather. Search for a city and PlanCast fetches its current conditions, scores 12 outdoor activities against them, and recommends the best match with a percentage score. Built with vanilla HTML, CSS, and JavaScript, with no frameworks or API keys needed.
 
+## Live Link
+
+plan-cast.netlify.app
+
 ## Features
 
 - **Activity recommendation**: get the best-matching outdoor activity for the city's current weather, with a match percentage
